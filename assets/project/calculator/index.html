@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="rig">
+        <div class="tape-wrap">
+            <div class="tape" id="tape">
+                <!-- tape line injected here -->
+            </div>
+            <div class="tape-ear"></div>
+        </div>
+
+        <div class="Calculator">
+            <div class="screw t1"></div>
+            <div class="screw tr"></div>
+            <div class="screw b1"></div>
+            <div class="screw br"></div>
+
+            <div class="display">
+                <div class="expr" id="expr">&nbsp;</div>
+                <div class="current" id="current">0</div>
+            </div>
+
+            <div class="keypad">
+                <button class="func" data-action="clear">AC</button>
+                <button class="func" data-action="backspace">⌫</button>
+
+                <button class="func" data-action="percent">%</button>
+                <button class="op" data-action="divide">÷</button>
+
+                <button data-num="7">7</button>
+                <button data-num="8">8</button>
+                <button data-num="9">9</button>
+                <button class="op" data-action="multiply">x</button>
+
+                <button data-num="4">4</button>
+                <button data-num="5">5</button>
+                <button data-num="6">6</button>
+                <button class="op" data-action="subtract">-</button>
+
+                <button data-num="1">1</button>
+                <button data-num="2">2</button>
+                <button data-num="3">3</button>
+                <button class="op" data-action="add">+</button>
+
+                <button class="zero" data-num="0">0</button>
+                <button data-action="decimal">.</button>
+                <button class="equals" data-action="equals">=</button>
+
+
+            </div>
+        </div>
+
+        <div class="credit">dibuat dengan HTML CSS JavaScript
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
