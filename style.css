@@ -535,7 +535,7 @@ section{
 @media (max-width: 768px) {
 
     .project-container {
-        grid-template-columns: 3fr;
+        grid-template-columns: 2fr;
     }
 
 }
