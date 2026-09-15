@@ -533,10 +533,19 @@ section{
 }
 
 @media (max-width: 768px) {
+  
+  
+  .projects-container {
+    grid-template-columns: 1fr !important; 
+    gap: 24px;                            
+  }
 
-    .projects-container {
-        grid-template-columns: 1fr;
-    }
+  
+  .projects-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
 
 }
 
