@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>🎬 Movie Finder</h1>
+        <p>Cari Film favoritmu dan temukan detail selengkapnya</p>
+
+        <form id="search-form" class="search-box">
+            <input type="text" id="search-input" placeholder="ketik judul film(contoh:Batman, Avengers)..." required>
+            <button type="submit">Cari</button>
+        </form>
+    </header>
+
+    <main class="container">
+        <!-- Status Loading & Error -->
+        <div id="status-message" class="status-message"></div>
+
+        <!-- Grid Katalog Flm -->
+        <div id="movie-grid" class="movie-grid"></div>
+    </main>
+
+    <!-- Modal Detail Film -->
+    <div id="movie-modal" class="Modal">
+        <div class="modal-content">
+            <span id="close-modal" class="close-btn">&times;</span>
+            <div id="modal-body" class="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
